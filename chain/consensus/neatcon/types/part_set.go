@@ -9,8 +9,8 @@ import (
 
 	"golang.org/x/crypto/ripemd160"
 
-	"github.com/neatlib/merkle-go"
 	. "github.com/nio-net/common"
+	"github.com/nio-net/merkle"
 	"github.com/nio-net/wire"
 )
 

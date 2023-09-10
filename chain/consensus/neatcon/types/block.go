@@ -7,9 +7,9 @@ import (
 	"io"
 	"time"
 
-	"github.com/neatlib/merkle-go"
 	. "github.com/nio-net/common"
 	"github.com/nio-net/crypto"
+	"github.com/nio-net/merkle"
 	"github.com/nio-net/nio/chain/core/state"
 	"github.com/nio-net/nio/chain/core/types"
 	"github.com/nio-net/nio/chain/log"

@@ -12,7 +12,7 @@ import (
 
 	"github.com/nio-net/nio/chain/core/rawdb"
 
-	flock "github.com/neatlib/flock-go"
+	flock "github.com/nio-net/flock"
 	"github.com/nio-net/nio/chain/accounts"
 	"github.com/nio-net/nio/chain/log"
 	"github.com/nio-net/nio/internal/debug"

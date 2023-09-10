@@ -25,9 +25,9 @@ require (
 	github.com/mattn/go-colorable v0.1.8
 	github.com/naoina/toml v0.1.1
 	github.com/nio-net/bls v1.0.0
-	github.com/nio-net/common v1.0.0
+	github.com/nio-net/common v1.0.1
 	github.com/nio-net/config v1.0.0
-	github.com/nio-net/crypto v1.0.0
+	github.com/nio-net/crypto v1.0.1
 	github.com/nio-net/database v1.0.0
 	github.com/nio-net/events v1.0.0
 	github.com/nio-net/flock v1.0.0

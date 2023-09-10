@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/neatlib/merkle-go"
+	"github.com/nio-net/merkle"
 	neatTypes "github.com/nio-net/nio/chain/core/types"
 	"github.com/nio-net/nio/utilities/common/hexutil"
 	"github.com/nio-net/wire"

@@ -7,9 +7,9 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/neatlib/merkle-go"
 	cmn "github.com/nio-net/common"
 	"github.com/nio-net/crypto"
+	"github.com/nio-net/merkle"
 	"github.com/nio-net/nio/chain/log"
 	"github.com/nio-net/nio/utilities/common"
 )

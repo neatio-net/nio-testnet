@@ -1,8 +1,8 @@
 package types
 
 import (
-	"github.com/neatlib/events-go"
 	. "github.com/nio-net/common"
+	"github.com/nio-net/events"
 	neatTypes "github.com/nio-net/nio/chain/core/types"
 	"github.com/nio-net/wire"
 )
