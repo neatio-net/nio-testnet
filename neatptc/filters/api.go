@@ -9,7 +9,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/neatlab/neatio"
+	"github.com/nio-net/nio"
 	"github.com/nio-net/nio/chain/core/types"
 	"github.com/nio-net/nio/neatdb"
 	"github.com/nio-net/nio/network/rpc"
