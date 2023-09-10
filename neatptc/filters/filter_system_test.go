@@ -9,7 +9,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/neatlab/neatio"
+	"github.com/nio-net/nio"
 	"github.com/nio-net/nio/chain/core/rawdb"
 
 	"github.com/nio-net/nio/chain/core"
