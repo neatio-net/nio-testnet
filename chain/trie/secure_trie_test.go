@@ -22,9 +22,9 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/neatlab/neatio/neatdb/memorydb"
-	"github.com/neatlab/neatio/utilities/common"
-	"github.com/neatlab/neatio/utilities/crypto"
+	"github.com/nio-net/nio/neatdb/memorydb"
+	"github.com/nio-net/nio/utilities/common"
+	"github.com/nio-net/nio/utilities/crypto"
 )
 
 func newEmptySecure() *SecureTrie {

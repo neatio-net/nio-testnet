@@ -19,7 +19,7 @@ package vm
 import (
 	"math/big"
 
-	"github.com/neatlab/neatio/utilities/common"
+	"github.com/nio-net/nio/utilities/common"
 )
 
 // destinations stores one map per contract (keyed by hash of code).

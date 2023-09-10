@@ -7,14 +7,14 @@ import (
 	"sync"
 	"time"
 
-	"github.com/neatlab/neatio/chain/consensus"
-	"github.com/neatlib/wire-go"
+	"github.com/nio-net/nio/chain/consensus"
+	"github.com/nio-net/wire"
 
-	"github.com/neatlab/neatio/chain/core/types"
-	"github.com/neatlab/neatio/network/p2p"
-	"github.com/neatlab/neatio/utilities/common"
-	"github.com/neatlab/neatio/utilities/rlp"
-	"github.com/neatlib/set-go"
+	"github.com/nio-net/nio/chain/core/types"
+	"github.com/nio-net/nio/network/p2p"
+	"github.com/nio-net/nio/utilities/common"
+	"github.com/nio-net/nio/utilities/rlp"
+	"github.com/nio-net/set"
 )
 
 var (

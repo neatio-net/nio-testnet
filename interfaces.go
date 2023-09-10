@@ -5,8 +5,8 @@ import (
 	"errors"
 	"math/big"
 
-	"github.com/neatlab/neatio/chain/core/types"
-	"github.com/neatlab/neatio/utilities/common"
+	"github.com/nio-net/nio/chain/core/types"
+	"github.com/nio-net/nio/utilities/common"
 )
 
 var NotFound = errors.New("not found")

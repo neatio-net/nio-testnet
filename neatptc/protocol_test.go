@@ -6,12 +6,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/neatlab/neatio/chain/core/types"
-	"github.com/neatlab/neatio/neatptc/downloader"
-	"github.com/neatlab/neatio/network/p2p"
-	"github.com/neatlab/neatio/utilities/common"
-	"github.com/neatlab/neatio/utilities/crypto"
-	"github.com/neatlab/neatio/utilities/rlp"
+	"github.com/nio-net/nio/chain/core/types"
+	"github.com/nio-net/nio/neatptc/downloader"
+	"github.com/nio-net/nio/network/p2p"
+	"github.com/nio-net/nio/utilities/common"
+	"github.com/nio-net/nio/utilities/crypto"
+	"github.com/nio-net/nio/utilities/rlp"
 )
 
 func init() {

@@ -7,10 +7,10 @@ import (
 	"strings"
 	"syscall"
 
-	"github.com/neatlab/neatio/chain/consensus/neatcon/consensus"
-	"github.com/neatlab/neatio/chain/log"
-	"github.com/neatlab/neatio/internal/debug"
-	"github.com/neatlab/neatio/utilities/utils"
+	"github.com/nio-net/nio/chain/consensus/neatcon/consensus"
+	"github.com/nio-net/nio/chain/log"
+	"github.com/nio-net/nio/internal/debug"
+	"github.com/nio-net/nio/utilities/utils"
 	"gopkg.in/urfave/cli.v1"
 )
 

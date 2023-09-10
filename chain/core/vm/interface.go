@@ -19,8 +19,8 @@ package vm
 import (
 	"math/big"
 
-	"github.com/neatlab/neatio/chain/core/types"
-	"github.com/neatlab/neatio/utilities/common"
+	"github.com/nio-net/nio/chain/core/types"
+	"github.com/nio-net/nio/utilities/common"
 )
 
 // StateDB is an EVM database for full state querying.

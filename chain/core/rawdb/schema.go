@@ -20,8 +20,8 @@ package rawdb
 import (
 	"encoding/binary"
 
-	"github.com/neatlab/neatio/utilities/common"
-	"github.com/neatlab/neatio/utilities/metrics"
+	"github.com/nio-net/nio/utilities/common"
+	"github.com/nio-net/nio/utilities/metrics"
 )
 
 // The fields below define the low level database schema prefixing.

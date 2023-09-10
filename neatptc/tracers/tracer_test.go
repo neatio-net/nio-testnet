@@ -24,9 +24,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/neatlab/neatio/chain/core/vm"
-	"github.com/neatlab/neatio/params"
-	"github.com/neatlab/neatio/utilities/common"
+	"github.com/nio-net/nio/chain/core/vm"
+	"github.com/nio-net/nio/params"
+	"github.com/nio-net/nio/utilities/common"
 )
 
 type account struct{}

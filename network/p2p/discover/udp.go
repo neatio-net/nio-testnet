@@ -9,11 +9,11 @@ import (
 	"net"
 	"time"
 
-	"github.com/neatlab/neatio/chain/log"
-	"github.com/neatlab/neatio/network/p2p/nat"
-	"github.com/neatlab/neatio/network/p2p/netutil"
-	"github.com/neatlab/neatio/utilities/crypto"
-	"github.com/neatlab/neatio/utilities/rlp"
+	"github.com/nio-net/nio/chain/log"
+	"github.com/nio-net/nio/network/p2p/nat"
+	"github.com/nio-net/nio/network/p2p/netutil"
+	"github.com/nio-net/nio/utilities/crypto"
+	"github.com/nio-net/nio/utilities/rlp"
 )
 
 const Version = 4

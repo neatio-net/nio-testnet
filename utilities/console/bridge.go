@@ -7,9 +7,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/neatlab/neatio/chain/accounts/usbwallet"
-	"github.com/neatlab/neatio/chain/log"
-	"github.com/neatlab/neatio/network/rpc"
+	"github.com/nio-net/nio/chain/accounts/usbwallet"
+	"github.com/nio-net/nio/chain/log"
+	"github.com/nio-net/nio/network/rpc"
 	"github.com/robertkrimen/otto"
 )
 

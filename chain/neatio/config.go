@@ -9,16 +9,16 @@ import (
 	"reflect"
 	"unicode"
 
-	"github.com/neatlab/neatio/chain/core"
-	"github.com/neatlab/neatio/chain/log"
+	"github.com/nio-net/nio/chain/core"
+	"github.com/nio-net/nio/chain/log"
 
 	"gopkg.in/urfave/cli.v1"
 
 	"github.com/naoina/toml"
-	neatptc "github.com/neatlab/neatio/neatptc"
-	"github.com/neatlab/neatio/network/node"
-	"github.com/neatlab/neatio/params"
-	"github.com/neatlab/neatio/utilities/utils"
+	neatptc "github.com/nio-net/nio/neatptc"
+	"github.com/nio-net/nio/network/node"
+	"github.com/nio-net/nio/params"
+	"github.com/nio-net/nio/utilities/utils"
 )
 
 var (

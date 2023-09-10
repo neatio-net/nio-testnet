@@ -29,7 +29,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/neatlab/neatio/params"
+	"github.com/nio-net/nio/params"
 )
 
 var (

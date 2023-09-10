@@ -7,14 +7,14 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/neatlab/neatio"
-	"github.com/neatlab/neatio/chain/accounts/abi"
-	"github.com/neatlab/neatio/chain/accounts/abi/bind"
-	"github.com/neatlab/neatio/chain/core/types"
-	"github.com/neatlab/neatio/utilities/common"
-	"github.com/neatlab/neatio/utilities/common/hexutil"
-	"github.com/neatlab/neatio/utilities/crypto"
-	"github.com/neatlab/neatio/utilities/rlp"
+	neatio "github.com/nio-net/nio"
+	"github.com/nio-net/nio/chain/accounts/abi"
+	"github.com/nio-net/nio/chain/accounts/abi/bind"
+	"github.com/nio-net/nio/chain/core/types"
+	"github.com/nio-net/nio/utilities/common"
+	"github.com/nio-net/nio/utilities/common/hexutil"
+	"github.com/nio-net/nio/utilities/crypto"
+	"github.com/nio-net/nio/utilities/rlp"
 )
 
 type mockCaller struct {

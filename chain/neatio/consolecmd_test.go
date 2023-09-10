@@ -11,7 +11,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/neatlab/neatio/params"
+	"github.com/nio-net/nio/params"
 )
 
 const (

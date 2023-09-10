@@ -7,7 +7,7 @@ import (
 	"math/rand"
 	"reflect"
 
-	"github.com/neatlab/neatio/utilities/common/hexutil"
+	"github.com/nio-net/nio/utilities/common/hexutil"
 )
 
 const (

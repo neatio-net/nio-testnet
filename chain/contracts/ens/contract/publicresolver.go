@@ -7,12 +7,12 @@ import (
 	"math/big"
 	"strings"
 
-	neatio "github.com/neatlab/neatio"
-	"github.com/neatlab/neatio/chain/accounts/abi"
-	"github.com/neatlab/neatio/chain/accounts/abi/bind"
-	"github.com/neatlab/neatio/chain/core/types"
-	"github.com/neatlab/neatio/utilities/common"
-	"github.com/neatlab/neatio/utilities/event"
+	neatio "github.com/nio-net/nio"
+	"github.com/nio-net/nio/chain/accounts/abi"
+	"github.com/nio-net/nio/chain/accounts/abi/bind"
+	"github.com/nio-net/nio/chain/core/types"
+	"github.com/nio-net/nio/utilities/common"
+	"github.com/nio-net/nio/utilities/event"
 )
 
 // PublicResolverABI is the input ABI used to generate the binding from.

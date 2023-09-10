@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/neatlab/neatio/utilities/event"
+	"github.com/nio-net/nio/utilities/event"
 )
 
 // This example demonstrates how SubscriptionScope can be used to control the lifetime of

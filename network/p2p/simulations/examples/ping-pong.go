@@ -25,13 +25,13 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/neatlab/neatio/chain/log"
-	"github.com/neatlab/neatio/network/node"
-	"github.com/neatlab/neatio/network/p2p"
-	"github.com/neatlab/neatio/network/p2p/discover"
-	"github.com/neatlab/neatio/network/p2p/simulations"
-	"github.com/neatlab/neatio/network/p2p/simulations/adapters"
-	"github.com/neatlab/neatio/network/rpc"
+	"github.com/nio-net/nio/chain/log"
+	"github.com/nio-net/nio/network/node"
+	"github.com/nio-net/nio/network/p2p"
+	"github.com/nio-net/nio/network/p2p/discover"
+	"github.com/nio-net/nio/network/p2p/simulations"
+	"github.com/nio-net/nio/network/p2p/simulations/adapters"
+	"github.com/nio-net/nio/network/rpc"
 )
 
 var adapterType = flag.String("adapter", "sim", `node adapter to use (one of "sim", "exec" or "docker")`)

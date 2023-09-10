@@ -5,11 +5,11 @@ import (
 	"math/rand"
 	"time"
 
-	"github.com/neatlab/neatio/chain/consensus"
-	"github.com/neatlab/neatio/chain/core/types"
-	"github.com/neatlab/neatio/chain/log"
-	"github.com/neatlab/neatio/utilities/common"
-	"github.com/neatlab/neatio/utilities/common/prque"
+	"github.com/nio-net/nio/chain/consensus"
+	"github.com/nio-net/nio/chain/core/types"
+	"github.com/nio-net/nio/chain/log"
+	"github.com/nio-net/nio/utilities/common"
+	"github.com/nio-net/nio/utilities/common/prque"
 )
 
 const (

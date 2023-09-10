@@ -5,14 +5,14 @@ import (
 	"math/big"
 	"sync"
 
-	"github.com/neatlab/neatio/chain/consensus/neatcon/epoch"
-	"github.com/neatlab/neatio/chain/core/state"
-	"github.com/neatlab/neatio/chain/core/types"
-	neatAbi "github.com/neatlab/neatio/neatabi/abi"
-	"github.com/neatlab/neatio/neatcli"
-	"github.com/neatlab/neatio/utilities/common"
-	"github.com/neatlib/crypto-go"
-	dbm "github.com/neatlib/db-go"
+	"github.com/nio-net/crypto"
+	dbm "github.com/nio-net/database"
+	"github.com/nio-net/nio/chain/consensus/neatcon/epoch"
+	"github.com/nio-net/nio/chain/core/state"
+	"github.com/nio-net/nio/chain/core/types"
+	neatAbi "github.com/nio-net/nio/neatabi/abi"
+	"github.com/nio-net/nio/neatcli"
+	"github.com/nio-net/nio/utilities/common"
 )
 
 type TX3LocalCache interface {

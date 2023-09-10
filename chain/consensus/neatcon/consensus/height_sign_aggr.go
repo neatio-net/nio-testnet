@@ -4,9 +4,9 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/neatlab/neatio/chain/consensus/neatcon/types"
-	"github.com/neatlab/neatio/chain/log"
-	. "github.com/neatlib/common-go"
+	. "github.com/nio-net/common"
+	"github.com/nio-net/nio/chain/consensus/neatcon/types"
+	"github.com/nio-net/nio/chain/log"
 )
 
 type RoundVoteSignAggr struct {

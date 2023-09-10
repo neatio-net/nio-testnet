@@ -22,9 +22,9 @@ import (
 	"math/big"
 	"sort"
 
-	"github.com/neatlab/neatio/chain/core/types"
-	"github.com/neatlab/neatio/chain/log"
-	"github.com/neatlab/neatio/utilities/common"
+	"github.com/nio-net/nio/chain/core/types"
+	"github.com/nio-net/nio/chain/log"
+	"github.com/nio-net/nio/utilities/common"
 )
 
 // nonceHeap is a heap.Interface implementation over 64bit unsigned integers for

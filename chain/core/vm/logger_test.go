@@ -20,8 +20,8 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/neatlab/neatio/params"
-	"github.com/neatlab/neatio/utilities/common"
+	"github.com/nio-net/nio/params"
+	"github.com/nio-net/nio/utilities/common"
 )
 
 type dummyContractRef struct {

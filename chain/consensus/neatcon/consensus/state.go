@@ -9,8 +9,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/neatlab/neatio/chain/log"
-	"github.com/neatlab/neatio/utilities/common"
+	"github.com/nio-net/nio/chain/log"
+	"github.com/nio-net/nio/utilities/common"
 
 	"context"
 
@@ -18,19 +18,19 @@ import (
 	"crypto/sha256"
 	"math/big"
 
-	consss "github.com/neatlab/neatio/chain/consensus"
-	ep "github.com/neatlab/neatio/chain/consensus/neatcon/epoch"
-	sm "github.com/neatlab/neatio/chain/consensus/neatcon/state"
-	"github.com/neatlab/neatio/chain/consensus/neatcon/types"
-	"github.com/neatlab/neatio/chain/core"
-	neatTypes "github.com/neatlab/neatio/chain/core/types"
-	neatAbi "github.com/neatlab/neatio/neatabi/abi"
-	"github.com/neatlab/neatio/params"
-	"github.com/neatlab/neatio/utilities/crypto"
-	"github.com/neatlab/neatio/utilities/rlp"
-	. "github.com/neatlib/common-go"
-	cfg "github.com/neatlib/config-go"
-	tmdcrypto "github.com/neatlib/crypto-go"
+	. "github.com/nio-net/common"
+	cfg "github.com/nio-net/config"
+	tmdcrypto "github.com/nio-net/crypto"
+	consss "github.com/nio-net/nio/chain/consensus"
+	ep "github.com/nio-net/nio/chain/consensus/neatcon/epoch"
+	sm "github.com/nio-net/nio/chain/consensus/neatcon/state"
+	"github.com/nio-net/nio/chain/consensus/neatcon/types"
+	"github.com/nio-net/nio/chain/core"
+	neatTypes "github.com/nio-net/nio/chain/core/types"
+	neatAbi "github.com/nio-net/nio/neatabi/abi"
+	"github.com/nio-net/nio/params"
+	"github.com/nio-net/nio/utilities/crypto"
+	"github.com/nio-net/nio/utilities/rlp"
 )
 
 const ROUND_NOT_PROPOSED int = 0

@@ -19,7 +19,7 @@ package state
 import (
 	"sync"
 
-	"github.com/neatlab/neatio/utilities/common"
+	"github.com/nio-net/nio/utilities/common"
 )
 
 type account struct {

@@ -6,11 +6,11 @@ import (
 	"io"
 	"io/ioutil"
 
-	"github.com/neatlab/neatio/chain/accounts"
-	"github.com/neatlab/neatio/chain/accounts/keystore"
-	"github.com/neatlab/neatio/chain/core/types"
-	"github.com/neatlab/neatio/utilities/common"
-	"github.com/neatlab/neatio/utilities/crypto"
+	"github.com/nio-net/nio/chain/accounts"
+	"github.com/nio-net/nio/chain/accounts/keystore"
+	"github.com/nio-net/nio/chain/core/types"
+	"github.com/nio-net/nio/utilities/common"
+	"github.com/nio-net/nio/utilities/crypto"
 )
 
 func NewTransactor(keyin io.Reader, passphrase string) (*TransactOpts, error) {

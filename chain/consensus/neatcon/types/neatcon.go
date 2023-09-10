@@ -4,10 +4,10 @@ import (
 	"fmt"
 	"time"
 
-	neatTypes "github.com/neatlab/neatio/chain/core/types"
-	"github.com/neatlab/neatio/utilities/common/hexutil"
 	"github.com/neatlib/merkle-go"
-	"github.com/neatlib/wire-go"
+	neatTypes "github.com/nio-net/nio/chain/core/types"
+	"github.com/nio-net/nio/utilities/common/hexutil"
+	"github.com/nio-net/wire"
 )
 
 type NeatConExtra struct {

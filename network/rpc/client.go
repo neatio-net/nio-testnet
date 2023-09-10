@@ -28,7 +28,7 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/neatlab/neatio/chain/log"
+	"github.com/nio-net/nio/chain/log"
 )
 
 var (

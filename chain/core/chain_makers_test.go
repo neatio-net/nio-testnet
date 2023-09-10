@@ -20,11 +20,11 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/neatlab/neatio/chain/core/rawdb"
-	"github.com/neatlab/neatio/chain/core/types"
-	"github.com/neatlab/neatio/chain/core/vm"
-	"github.com/neatlab/neatio/params"
-	"github.com/neatlab/neatio/utilities/crypto"
+	"github.com/nio-net/nio/chain/core/rawdb"
+	"github.com/nio-net/nio/chain/core/types"
+	"github.com/nio-net/nio/chain/core/vm"
+	"github.com/nio-net/nio/params"
+	"github.com/nio-net/nio/utilities/crypto"
 )
 
 func ExampleGenerateChain() {

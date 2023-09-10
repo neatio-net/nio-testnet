@@ -7,15 +7,15 @@ import (
 	"time"
 
 	lru "github.com/hashicorp/golang-lru"
-	"github.com/neatlab/neatio/chain/consensus"
-	"github.com/neatlab/neatio/chain/consensus/neatcon/epoch"
-	ntcTypes "github.com/neatlab/neatio/chain/consensus/neatcon/types"
-	"github.com/neatlab/neatio/chain/core/state"
-	"github.com/neatlab/neatio/chain/core/types"
-	"github.com/neatlab/neatio/network/rpc"
-	"github.com/neatlab/neatio/params"
-	"github.com/neatlab/neatio/utilities/common"
-	"github.com/neatlib/wire-go"
+	"github.com/nio-net/nio/chain/consensus"
+	"github.com/nio-net/nio/chain/consensus/neatcon/epoch"
+	ntcTypes "github.com/nio-net/nio/chain/consensus/neatcon/types"
+	"github.com/nio-net/nio/chain/core/state"
+	"github.com/nio-net/nio/chain/core/types"
+	"github.com/nio-net/nio/network/rpc"
+	"github.com/nio-net/nio/params"
+	"github.com/nio-net/nio/utilities/common"
+	"github.com/nio-net/wire"
 )
 
 const (

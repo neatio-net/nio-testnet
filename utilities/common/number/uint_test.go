@@ -20,7 +20,7 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/neatlab/neatio/utilities/common"
+	"github.com/nio-net/nio/utilities/common"
 )
 
 func TestSet(t *testing.T) {

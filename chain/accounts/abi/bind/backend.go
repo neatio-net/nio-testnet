@@ -5,9 +5,9 @@ import (
 	"errors"
 	"math/big"
 
-	"github.com/neatlab/neatio"
-	"github.com/neatlab/neatio/chain/core/types"
-	"github.com/neatlab/neatio/utilities/common"
+	neatio "github.com/nio-net/nio"
+	"github.com/nio-net/nio/chain/core/types"
+	"github.com/nio-net/nio/utilities/common"
 )
 
 var (

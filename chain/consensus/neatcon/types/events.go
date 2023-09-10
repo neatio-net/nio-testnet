@@ -1,10 +1,10 @@
 package types
 
 import (
-	neatTypes "github.com/neatlab/neatio/chain/core/types"
-	. "github.com/neatlib/common-go"
 	"github.com/neatlib/events-go"
-	"github.com/neatlib/wire-go"
+	. "github.com/nio-net/common"
+	neatTypes "github.com/nio-net/nio/chain/core/types"
+	"github.com/nio-net/wire"
 )
 
 func EventStringBond() string    { return "Bond" }

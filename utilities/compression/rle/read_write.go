@@ -21,7 +21,7 @@ import (
 	"bytes"
 	"errors"
 
-	"github.com/neatlab/neatio/utilities/crypto"
+	"github.com/nio-net/nio/utilities/crypto"
 )
 
 const (

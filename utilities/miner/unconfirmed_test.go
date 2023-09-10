@@ -19,8 +19,8 @@ package miner
 import (
 	"testing"
 
-	"github.com/neatlab/neatio/chain/core/types"
-	"github.com/neatlab/neatio/utilities/common"
+	"github.com/nio-net/nio/chain/core/types"
+	"github.com/nio-net/nio/utilities/common"
 )
 
 // noopHeaderRetriever is an implementation of headerRetriever that always

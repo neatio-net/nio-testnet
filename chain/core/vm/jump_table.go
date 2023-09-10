@@ -20,7 +20,7 @@ import (
 	"errors"
 	"math/big"
 
-	"github.com/neatlab/neatio/params"
+	"github.com/nio-net/nio/params"
 )
 
 type (

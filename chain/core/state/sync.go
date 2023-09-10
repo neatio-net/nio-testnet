@@ -19,10 +19,10 @@ package state
 import (
 	"bytes"
 
-	"github.com/neatlab/neatio/chain/trie"
-	"github.com/neatlab/neatio/neatdb"
-	"github.com/neatlab/neatio/utilities/common"
-	"github.com/neatlab/neatio/utilities/rlp"
+	"github.com/nio-net/nio/chain/trie"
+	"github.com/nio-net/nio/neatdb"
+	"github.com/nio-net/nio/utilities/common"
+	"github.com/nio-net/nio/utilities/rlp"
 )
 
 // NewStateSync create a new state trie download scheduler.

@@ -19,8 +19,8 @@ package runtime_test
 import (
 	"fmt"
 
-	"github.com/neatlab/neatio/chain/core/vm/runtime"
-	"github.com/neatlab/neatio/utilities/common"
+	"github.com/nio-net/nio/chain/core/vm/runtime"
+	"github.com/nio-net/nio/utilities/common"
 )
 
 func ExampleExecute() {

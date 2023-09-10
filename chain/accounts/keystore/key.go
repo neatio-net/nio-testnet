@@ -13,9 +13,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/neatlab/neatio/chain/accounts"
-	"github.com/neatlab/neatio/utilities/common"
-	"github.com/neatlab/neatio/utilities/crypto"
+	"github.com/nio-net/nio/chain/accounts"
+	"github.com/nio-net/nio/utilities/common"
+	"github.com/nio-net/nio/utilities/crypto"
 	"github.com/pborman/uuid"
 )
 

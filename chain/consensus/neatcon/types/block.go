@@ -7,14 +7,14 @@ import (
 	"io"
 	"time"
 
-	"github.com/neatlab/neatio/chain/core/state"
-	"github.com/neatlab/neatio/chain/core/types"
-	"github.com/neatlab/neatio/chain/log"
-	"github.com/neatlab/neatio/utilities/rlp"
-	. "github.com/neatlib/common-go"
-	"github.com/neatlib/crypto-go"
 	"github.com/neatlib/merkle-go"
-	"github.com/neatlib/wire-go"
+	. "github.com/nio-net/common"
+	"github.com/nio-net/crypto"
+	"github.com/nio-net/nio/chain/core/state"
+	"github.com/nio-net/nio/chain/core/types"
+	"github.com/nio-net/nio/chain/log"
+	"github.com/nio-net/nio/utilities/rlp"
+	"github.com/nio-net/wire"
 )
 
 const MaxBlockSize = 22020096

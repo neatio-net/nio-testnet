@@ -8,13 +8,13 @@ import (
 	"sync"
 	"time"
 
-	"github.com/neatlab/neatio/chain/consensus"
-	"github.com/neatlab/neatio/chain/log"
+	"github.com/nio-net/nio/chain/consensus"
+	"github.com/nio-net/nio/chain/log"
 
-	. "github.com/neatlib/common-go"
-	"github.com/neatlib/wire-go"
+	. "github.com/nio-net/common"
+	"github.com/nio-net/wire"
 
-	"github.com/neatlab/neatio/chain/consensus/neatcon/types"
+	"github.com/nio-net/nio/chain/consensus/neatcon/types"
 )
 
 const (

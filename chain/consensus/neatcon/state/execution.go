@@ -4,11 +4,11 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/neatlab/neatio/chain/consensus"
-	ep "github.com/neatlab/neatio/chain/consensus/neatcon/epoch"
-	"github.com/neatlab/neatio/chain/consensus/neatcon/types"
-	"github.com/neatlab/neatio/chain/core"
-	neatTypes "github.com/neatlab/neatio/chain/core/types"
+	"github.com/nio-net/nio/chain/consensus"
+	ep "github.com/nio-net/nio/chain/consensus/neatcon/epoch"
+	"github.com/nio-net/nio/chain/consensus/neatcon/types"
+	"github.com/nio-net/nio/chain/core"
+	neatTypes "github.com/nio-net/nio/chain/core/types"
 )
 
 func (s *State) ValidateBlock(block *types.NCBlock) error {

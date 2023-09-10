@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/neatlab/neatio/utilities/crypto"
+	"github.com/nio-net/nio/utilities/crypto"
 )
 
 type Method struct {

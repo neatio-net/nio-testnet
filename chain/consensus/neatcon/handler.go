@@ -19,11 +19,11 @@ package neatcon
 import (
 	"errors"
 
-	"github.com/neatlab/neatio/chain/consensus"
-	ntcTypes "github.com/neatlab/neatio/chain/consensus/neatcon/types"
-	"github.com/neatlab/neatio/chain/core/types"
-	"github.com/neatlab/neatio/chain/log"
-	"github.com/neatlab/neatio/params"
+	"github.com/nio-net/nio/chain/consensus"
+	ntcTypes "github.com/nio-net/nio/chain/consensus/neatcon/types"
+	"github.com/nio-net/nio/chain/core/types"
+	"github.com/nio-net/nio/chain/log"
+	"github.com/nio-net/nio/params"
 )
 
 var (
